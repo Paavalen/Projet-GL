@@ -10,7 +10,7 @@ session_start();
 
 $dbHost = 'localhost';
 $dbUser = 'root';
-$dbPass = '';
+$dbPass = 'Paavalen0504';
 $dbName = 'db_event_management';
 
 /*
