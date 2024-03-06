@@ -16,7 +16,7 @@ BEEHIVE is an online platform designed to connect freelancers with potential cli
 
 ## How to Use:
 
-1. **Register/Login:** Create an account on FreelanceHub to access all features. If you're a freelancer, set up your profile with details about your skills and services. If you're a client, you can start posting service requests immediately.
+1. **Register/Login:** Create an account on BEEHIVE to access all features. If you're a freelancer, set up your profile with details about your skills and services. If you're a client, you can start posting service requests immediately.
 
 2. **Browse Listings/Requests:** Explore the platform to find services that match your needs. Freelancers can showcase their offerings, while clients can browse through service listings or post their requirements.
 
@@ -26,7 +26,7 @@ BEEHIVE is an online platform designed to connect freelancers with potential cli
 
 ## Contributing:
 
-If you're interested in contributing to FreelanceHub, feel free to fork the repository, make improvements, and submit pull requests. Your contributions are highly valued and can help enhance the platform for all users.
+If you're interested in contributing to BEEHIVE, feel free to fork the repository, make improvements, and submit pull requests. Your contributions are highly valued and can help enhance the platform for all users.
 
 ## Support:
 
