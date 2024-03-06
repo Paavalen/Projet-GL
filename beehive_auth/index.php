@@ -28,6 +28,7 @@
                     $_SESSION['username'] = $row['Username'];
                     $_SESSION['age'] = $row['Age'];
                     $_SESSION['id'] = $row['Id'];
+                    $_SESSION['Type'] = $row['Type'];
                 }else{
                     echo "<div class='message'>
                       <p>Wrong Username or Password</p>
@@ -35,9 +36,22 @@
                    echo "<a href='index.php'><button class='btn'>Go Back</button>";
          
                 }
+               
                 if(isset($_SESSION['valid'])){
-                    header("Location: home.php");
+                    // Redirection vers differentes pages selon le type
+                    if($_SESSION['Type'] == 'Admin'){
+                        header("Location: admin.php");
+                    } else if($_SESSION['type'] == 'Utilisateur'){
+                        header("Location: home.php");
+                    } else {
+                        // Redirection par défaut si le type n'est pas spécifié
+                        header("Location: home.php");
+                    }
+                } else {
+                    // Redirection si la session n'est pas valide
+                    header("Location: login.php");
                 }
+                
               }else{
 
             
